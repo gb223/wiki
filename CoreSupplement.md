@@ -11,8 +11,8 @@ A NIEM *core supplement* is a special type of release Model Package Description 
 ## Are Any Core Supplements Available?
 
 A relatively simple core supplement for NIEM 3.0 exists that fixes an inadvertent omission in the U.S. Postal Service (USPS) list of code values for U.S. States.  The core supplement package contains two schemas:  
-- A small 'niem-core.xsd' addendum
-- A corrected 'usps_states.xsd' schema document that incorporates all U.S. State codes including Alabama (AL) (previously omitted).  
+- A small `niem-core.xsd` addendum
+- A corrected `usps_states.xsd` schema document that incorporates all U.S. State codes including Alabama (AL) (previously omitted).  
 
 This is the first time NIEM has exercised its new v3.0 architecture that allows for easy adjustments to code lists and supplements to a core without the need to wait for a major release cycle.  This core supplement package can be downloaded from either of these locations: 
 - In the release area:  http://release.niem.gov/niem/3.0/du-cs-3.0.html
@@ -35,4 +35,4 @@ Then, update your NIEM subset or IEPD with the corresponding components from the
 
 This can be done manually by adding the schemas from the core supplement package to your IEPD schema document set.  Since these will be new schemas in your IEPD, you must import them at the appropriate location within one or more IEPD extension schemas.  
 
-You can also add a core supplement to a subset using the [Schema Subset Generation Tool (SSGT)](http://tools.niem.gov/niemtools/ssgt/index.iepd).  To do this, reload your wantlist (or skip this step if you are building a new subset), replace the original components with their new counterparts, and (re)generate the subset or wantlist.  In an effort to direct SSGT users to the updated components, the original components are marked "deprecated".  SSGT usage information explains which components should be used in their place.
+You can also add a core supplement to a subset using the [Schema Subset Generation Tool (SSGT)](http://tools.niem.gov/niemtools/ssgt/index.iepd).  To do this, reload your wantlist (or skip this step if you are building a new subset), replace the original components with their new counterparts, and (re)generate the subset or wantlist.  In an effort to direct SSGT users to the updated components, the original components are marked `deprecated`.  SSGT usage information explains which components should be used in their place.
