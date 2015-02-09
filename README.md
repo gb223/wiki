@@ -5,7 +5,7 @@
 
 A NIEM *core supplement* is a special type of release Model Package Description (MPD).  It is commonly used to apply:
 - An addendum (never remove or change) of new content to an existing NIEM core (applicable to releases that contain that core); or
-- An adjustment or correction to NIEM code list associated with a release. 
+- An adjustment or correction to a NIEM code list associated with a release. 
 
 
 ## Are Any Core Supplements Available?
