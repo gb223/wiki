@@ -19,7 +19,7 @@ This is the first time NIEM has exercised its new v3.0 architecture that allows 
 - In the publication area:  http://publication.niem.gov/niem/niem-core/3.0/1/niem-core-3.0.1.cs.zip
 
 
-## How to Use this NIEM Core Supplement
+## How to Use the NIEM Core Supplement for USPS U.S. State Codes
 
 If you use any of the following NIEM 3.0 components:
 - Element nc:JurisdictionUSPostalServiceCode
